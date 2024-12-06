@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IvanennkoLab07-4</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 22px;
+        }
+
+        label {
+            display: block;
+            margin: 8px 0;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        button {
+            width: 48%;
+            padding: 8px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .form-actions {
+            display: flex;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form action="#">
+        <h1>Замовлення на товар</h1>
+
+        <label for="account-number">Номер банківського рахунку:</label>
+        <input type="text" id="account-number" name="account-number" placeholder="Введіть номер рахунку">
+
+        <label for="user-id">Особистий номер користувача:</label>
+        <input type="text" id="user-id" name="user-id" placeholder="Введіть ваш ID">
+
+        <label for="products">Оберіть товари:</label>
+        <select id="products" name="products" multiple>
+            <option value="product1">Товар 1</option>
+            <option value="product2">Товар 2</option>
+            <option value="product3">Товар 3</option>
+            <option value="product4">Товар 4</option>
+        </select>
+
+        <label for="comments">Коментарі:</label>
+        <textarea id="comments" name="comments" rows="4" placeholder="Ваші побажання чи запитання..."></textarea>
+
+        <label>Вид оплати:</label>
+        <input type="radio" id="cash" name="payment" value="cash">
+        <label for="cash">Готівковий</label>
+        <input type="radio" id="non-cash" name="payment" value="non-cash">
+        <label for="non-cash">Безготівковий</label>
+
+        <label>Додаткова інформація:</label>
+        <input type="checkbox" id="balance-info" name="additional-info" value="balance">
+        <label for="balance-info">Залишки на рахунку</label>
+        <input type="checkbox" id="payment-history" name="additional-info" value="payments">
+        <label for="payment-history">Останні виплати</label>
+
+        <div class="form-actions">
+            <button type="submit">Відправити</button>
+            <button type="reset">Очистити</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

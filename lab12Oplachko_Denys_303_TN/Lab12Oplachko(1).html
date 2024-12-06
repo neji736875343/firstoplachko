@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація користувача</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>Мій особистий блог</h1>
+            <p>Владислав Бублик</p>
+        </div>
+        <nav>
+            <a href="#">Вхід</a>
+            <a href="#" class="active">Реєстрація</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="registration-form">
+            <h2>Реєстрація користувача</h2>
+            <form action="#" method="post">
+                <label for="last-name">Прізвище</label>
+                <input type="text" id="last-name" name="last-name" required>
+                
+                <label for="first-name">Ім'я</label>
+                <input type="text" id="first-name" name="first-name" required>
+                
+                <label for="username">Логін</label>
+                <input type="text" id="username" name="username" required>
+                
+                <label for="group">Навчальна група</label>
+                <select id="group" name="group" required>
+                    <option value="281">281</option>
+                    <option value="282">282</option>
+                    <option value="283">283</option>
+                </select>
+                
+                <label for="password">Пароль</label>
+                <input type="password" id="password" name="password" required>
+                
+                <label for="confirm-password">Підтвердження паролю</label>
+                <input type="password" id="confirm-password" name="confirm-password" required>
+                
+                <button type="submit">Зареєструватись</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© Всі права захищені.</p>
+    </footer>
+</body>
+</html>

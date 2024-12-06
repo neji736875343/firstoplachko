@@ -1,0 +1,91 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c1c1c;
+    color: #ffffff
+}
+
+a {
+    color: #fdba00;
+    text-decoration: none
+}
+
+a:hover {
+    text-decoration: underline
+}
+
+.menu {
+    background-color: #354355;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px
+}
+
+.menu .logo {
+    margin-right: auto
+}
+
+.menu .logo a {
+    display: flex;
+    align-items: center
+}
+
+.menu .logo a img {
+    height: 40px;
+    width: auto
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0
+}
+
+.menu ul li {
+    margin: 0 15px
+}
+
+.menu ul li a {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff
+}
+
+.menu ul li a:hover {
+    color: #ffbb00
+}
+
+.section {
+    padding: 22px;
+    text-align: center
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 26px;
+    color: #ffbb00
+}
+
+.section .movies {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.section .movies .movie {
+    width: 200px;
+    text-align: center
+}
+
+.section .movies .movie img {
+    width: 100%;
+    border-radius: 5px
+}
+
+.section .movies .movie p {
+    margin-top: 10px;
+    font-size: 16px
+}

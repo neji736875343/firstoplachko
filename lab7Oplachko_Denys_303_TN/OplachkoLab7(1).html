@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета студента</title>
+</head>
+
+<body>
+    <h2>Анкета студента</h2>
+    <form action="#">
+        <p>Ваше ім'я:
+            <input name="name" type="text" maxlength="40" size="30">
+        </p>
+
+        <p>Ваш email:
+            <input name="email" type="email" placeholder="example@email.com">
+        </p>
+
+        <p>Ваша стать:
+            <input type="radio" name="pol" value="male" id="male">
+            <label for="male">Чоловіча</label>
+            <input type="radio" name="pol" value="female" id="female">
+            <label for="female">Жіноча</label>
+        </p>
+
+        <p>На якому курсі Ви навчаєтесь?
+            <select name="curs">
+                <option value="1" selected>Перший</option>
+                <option value="2">Другий</option>
+                <option value="3">Третій</option>
+                <option value="4">Четвертий</option>
+                <option value="5">П'ятий</option>
+            </select>
+        </p>
+
+        <p>Які дисципліни ви вивчаєте:<br>
+            <input type="checkbox" name="web" value="yes" id="web">
+            <label for="web">WEB-програмування</label><br>
+            <input type="checkbox" name="eldinam" value="yes" id="eldinam">
+            <label for="eldinam">Технічна електродинаміка</label><br>
+            <input type="checkbox" name="math" value="yes" id="math">
+            <label for="math">Вища математика</label><br>
+            <input type="checkbox" name="physics" value="yes" id="physics">
+            <label for="physics">Фізика</label>
+        </p>
+
+        <p>Напишіть про себе:<br>
+            <textarea name="about" rows="4" cols="40"></textarea>
+        </p>
+
+        <p>Завантажте фото:
+            <input type="file" name="photo" accept="image/*">
+        </p>
+
+        <p>
+            <input type="submit" value="Відправити">
+            <input type="reset" value="Очистити">
+        </p>
+    </form>
+</body>
+
+</html>

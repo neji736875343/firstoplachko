@@ -1,0 +1,45 @@
+body{
+	background-image: url(images/back.jpg);
+}
+span{
+	color: rgb(4, 107, 0);
+}
+p{
+	text-align: justify;
+	margin-left:40px;
+	margin-right:40px;
+	font-style: normal;
+	font-size: 28px;
+}
+h1{
+	font-weight: bold;
+	color: #003c8a;
+	text-align: center;
+	font-style: normal;
+}
+img {
+
+    display: block;
+    margin: 10px auto;
+    max-width: 50%;
+    height: auto;
+}
+a:link {
+    color: #1abc9c; 
+    text-decoration: none;
+}
+
+a:visited {
+    color: #9b59b6; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #e74c3c; 
+    text-decoration: underline;
+}
+
+a:active {
+    color: #2ecc71; 
+    text-decoration: none;
+}

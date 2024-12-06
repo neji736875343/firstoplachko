@@ -1,0 +1,53 @@
+body {
+    background-color: #736048;
+    color: #E4EAF2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #E4EAF2;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.custom-hr {
+    width: 250px;
+    border: 2px solid #A68B03;
+    border-radius: 50px;
+    margin: 10px auto;
+}
+
+.h2-hr {
+    width: 270px;
+    border: 2px solid #468BA6;
+    border-radius: 50px;
+    margin: 10px auto;
+}
+
+.pStandart {
+    text-align: justify;
+    font-size: 20px;
+    margin: 0 15%;
+    color: #E4EAF2;
+}
+
+.code-block {
+    background-color: #ADC177;
+    padding: 25px;
+    border-radius: 10px;
+    font-family: monospace;
+    margin: 0 15%;
+    color: #6d6875;
+}
+
+#signature {
+    font-size: 25px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    color: #E4EAF2;
+}

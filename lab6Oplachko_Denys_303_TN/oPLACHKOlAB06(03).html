@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сенсорне зображення</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: palevioletred;
+            margin: 20px;
+        }
+        h1 {
+            color: #1E90FF;
+        }
+        img {
+            border: 2px solid black;
+            margin: 20px 0;
+        }
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+        a {
+            text-decoration: none;
+            color: #1E90FF;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Сенсорне зображення</h1>
+    <p>Наведіть курсор на різні області зображення, щоб побачити підказку, або клікніть, щоб перейти за посиланням.</p>
+
+    <!-- Сенсорне зображення -->
+    <img src="images/3.jpg" alt="Сенсорне зображення" usemap="#image-map" width="600" height="400">
+
+    <!-- Карта з областями -->
+    <map name="image-map">
+        <!-- Прямокутна область -->
+        <area shape="rect" coords="50,50,200,150" href="https://pl.vgorode.ua/news/sobytyia/a1125649-videofakt-hora-pivikha-opasna-dlja-zhizni-turistov" 
+              title="Гора Пивиха" alt="Регіон 1">
+    </map>
+
+    <p><a href="#top">Повернутися до початку сторінки</a></p>
+
+</body>
+</html>
